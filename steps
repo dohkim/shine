@@ -1,0 +1,10 @@
+1. rails new --skip-turbolinks --skip-spring -T -d postgresql shine
+2. edit database.yml
+3. rake db:create, rake db:migrate
+4. install device gem, rails g devise:install
+5. rails g devise User
+6. before_action :authenticate_user!
+7. rails dbconsole, \x on, select * from users;
+8. install nodejs
+9. npm install -g bower
+10. gem bower-rails, bundle install
